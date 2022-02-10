@@ -1418,6 +1418,10 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .Resume__Section {
+    height: 85vh;
+  }
+
   .Landing__section {
     flex-direction: column;
     justify-content: flex-start;
