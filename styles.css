@@ -816,8 +816,8 @@ body {
 
 .about__content__center p {
   text-align: center;
-  line-height: 4vh;
-  font-size: 3vh;
+  line-height: min(4vh, 2.7vw);
+  font-size: min(2.7vh, 2.3vw);
   margin: 5px 0;
 }
 
