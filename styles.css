@@ -898,6 +898,16 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0;
+  position: relative;
+}
+.Resume {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  position: absolute;
+  inset: 0;
 }
 .Resume__Section h2 {
   color: white;
@@ -918,14 +928,6 @@ body {
   -moz-text-fill-color: transparent;
   background-size: 100%;
   font-size: 5vh;
-}
-
-.Resume {
-  height: 100%;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  display: flex;
 }
 
 .Resume__close_button {
