@@ -13,6 +13,7 @@ const aboutHighlight= document.getElementById("about__options__highlight")
 const resumeContainer = document.getElementById("Resume__Container")
 const resumeCloseButton = document.getElementById("Resume__close_button")
 const resumeOpenButton = document.getElementById("Resume__open_button")
+const resumeDownload = document.getElementById("Resume__Download")
 
 // Show active menu when scrolling
 const handleScroll = () => {
@@ -38,6 +39,9 @@ resumeOpenButton.addEventListener("click", () => {
     resumeContainer.classList.toggle("toggle__hide");
 });
 resumeCloseButton.addEventListener("click", () => {
+    resumeContainer.classList.toggle("toggle__hide");
+});
+resumeDownload.addEventListener("click", () => {
     resumeContainer.classList.toggle("toggle__hide");
 });
 btnProfessional.addEventListener("click", () => {
