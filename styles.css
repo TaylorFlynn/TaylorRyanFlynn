@@ -16,9 +16,9 @@
   background: rgb(24, 24, 24);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(0, 119, 255);
-  background: -webkit-linear-gradient(to left, #2b40ff, rgb(0, 119, 255));
-  background: linear-gradient(to left, #2b40ff, rgb(0, 119, 255));
+  background: #ff416c;
+  background: -webkit-linear-gradient(180deg, #ff4b2b, #ff416c);
+  background: linear-gradient(180deg, #ff4b2b, #ff416c);
   border-radius: 10px;
   border: non;
   /* box-shadow: 0em 0em 30px #006eff, 0em 0em 10px #006eff, 0em 0em 5px #ffffff; */
