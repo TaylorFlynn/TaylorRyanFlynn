@@ -1492,11 +1492,15 @@ body {
     width: 80vw;
     height: 40vh;
   }
+  #card-2 {
+    background: transparent;
+  }
   .footer__container {
     justify-content: flex-start;
   }
   .contact__form__container {
     height: 60vh;
+    padding-right: 0px;
   }
 
   .form__inner {
