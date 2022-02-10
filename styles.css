@@ -875,8 +875,7 @@ body {
 }
 
 .Resume__Container {
-  background: rgb(41, 41, 41);
-  background-image: url(./assets/LandingPhoto2.jpg);
+  background: rgba(41, 41, 41, 0.336);
   object-fit: contain;
   display: flex;
   flex-direction: column;
@@ -986,6 +985,11 @@ body {
   width: 100%;
   padding: 50px;
 }
+.form__inner textarea {
+  height: 200%;
+  width: 100%;
+}
+
 .form__header {
   font-size: 42px;
   margin: 0;
