@@ -69,7 +69,14 @@ btnEducation.addEventListener("click", (e) => {
     aboutHighlight.classList.add("right")
 });
 
-window.addEventListener('scroll', handleScroll);
 mobileMenuContainer.addEventListener('click', mobileMenu);
 navLinks.forEach((Link)=> Link.addEventListener('click', hideMobileMenu));
 navLogo.addEventListener('click', hideMobileMenu);
+
+window.addEventListener('scroll', handleScroll);
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
