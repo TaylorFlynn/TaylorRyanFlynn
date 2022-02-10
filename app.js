@@ -69,6 +69,3 @@ window.addEventListener('scroll', handleScroll);
 mobileMenuContainer.addEventListener('click', mobileMenu);
 navLinks.forEach((Link)=> Link.addEventListener('click', hideMobileMenu));
 navLogo.addEventListener('click', hideMobileMenu);
-
-let viewport = document.querySelector('meta[name=viewport]')
- viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
