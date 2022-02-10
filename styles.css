@@ -1140,6 +1140,8 @@ body {
   align-items: center;
   width: 100vw;
   height: 60px;
+  position: sticky;
+  bottom: 0%;
 }
 
 .footer__wrapper {
