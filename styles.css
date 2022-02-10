@@ -901,7 +901,7 @@ body {
 }
 .Resume__Section h2 {
   color: white;
-  font-size: 45px;
+  font-size: 6vh;
   text-align: center;
 }
 .Resume__Section a {
@@ -909,14 +909,15 @@ body {
   font-size: 55px;
   text-align: center;
   background: #ff416c;
-  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: -webkit-linear-gradient(225deg, #ff4b2b, #ff416c);
+  background: linear-gradient(225deg, #ff4b2b, #ff416c);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   background-size: 100%;
+  font-size: 5vh;
 }
 
 .Resume {
