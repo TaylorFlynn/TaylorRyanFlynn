@@ -914,13 +914,13 @@ body {
   font-size: 6vh;
   text-align: center;
 }
-.Resume__Section a {
+.Resume__Section span {
   color: rgb(0, 68, 255);
   font-size: 55px;
   text-align: center;
-  background: #ff416c;
-  background: -webkit-linear-gradient(225deg, #ff4b2b, #ff416c);
-  background: linear-gradient(225deg, #ff4b2b, #ff416c);
+  background: rgb(0, 119, 255);
+  background: -webkit-linear-gradient(to left, #2b40ff, rgb(0, 119, 255));
+  background: linear-gradient(to left, #2b40ff, rgb(0, 119, 255));
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -928,6 +928,22 @@ body {
   -moz-text-fill-color: transparent;
   background-size: 100%;
   font-size: 5vh;
+}
+.Resume__Container a {
+  color: rgb(0, 68, 255);
+  font-size: 55px;
+  text-align: center;
+  background: rgb(0, 119, 255);
+  background: -webkit-linear-gradient(to left, #2b40ff, rgb(0, 119, 255));
+  background: linear-gradient(to left, #2b40ff, rgb(0, 119, 255));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-size: 100%;
+  font-size: 4vh;
+  font-weight: 700;
 }
 
 .Resume__close_button {
