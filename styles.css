@@ -983,7 +983,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  padding: 50px;
+  padding: 0px 50px;
 }
 .form__inner textarea {
   height: 200%;
@@ -1600,4 +1600,9 @@ body {
 
 .toggle__hide {
   left: 0%;
+}
+
+.pdf__container object {
+  height: 50vh;
+  width: 50vw;
 }
