@@ -1588,6 +1588,24 @@ body {
   .about__options {
     margin-bottom: 5vh;
   }
+  .contact__container {
+    padding: 0px;
+  }
+  .form__inner {
+    padding: 0px;
+  }
+  .form__content {
+    padding: 0px;
+  }
+  .form__content input,
+  .form__content textarea {
+    margin: 3px;
+    height: 20px;
+    min-height: 35px;
+  }
+  .form__content textarea {
+    height: 100px;
+  }
   .contact__icon img {
     margin-right: 20px;
     height: 85px;
