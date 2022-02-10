@@ -1040,23 +1040,23 @@ body {
   padding: 0px 5px;
 }
 
+.form__content textarea {
+  padding: 15px;
+  height: auto;
+}
+
 .form__content input::placeholder,
 .form__content textarea::placeholder,
 .form__content button {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 700;
 }
+
+.form__content input:focus,
+.form__content textarea:focus,
 .form__content input:hover,
 .form__content textarea:hover {
-  border: 2px solid rgb(70, 70, 70);
-}
-.form__content input:focus,
-.form__content textarea:focus {
   border: 2px solid rgb(0, 132, 255);
-}
-.form__content textarea {
-  padding: 15px;
-  height: auto;
 }
 .form__content button {
   border: 1px solid white;
