@@ -472,14 +472,45 @@ body {
   height: 75px;
   width: 100%;
   inset: -35px 0% 0% 0%;
-  background: #ec2f4b;
-  background: -webkit-linear-gradient(45deg, #ec4b2f, #ec2f4b);
-  background: linear-gradient(45deg, #ec4b2f, #ec2f4b);
+  background: #f1f1f1;
+  background: -webkit-linear-gradient(45deg, #f1f1f1, #979797);
+  background: linear-gradient(45deg, #f1f1f1, #979797);
   z-index: -1;
   transition: all 0.25s cubic-bezier(1, -0.03, 0.28, 0.3);
 }
+
 .Project__card:hover:before {
   inset: 0% 0% 0% 0%;
+}
+
+.Project__card:nth-of-type(2):before {
+  color: rgb(0, 119, 255);
+  background: -webkit-linear-gradient(225deg, #2b40ff, rgb(0, 119, 255));
+  background: linear-gradient(225deg, #2b40ff, rgb(0, 119, 255));
+}
+
+.Project__card:nth-of-type(3):before {
+  background: #eb7f41;
+  background: -webkit-linear-gradient(45deg, #eb7f41, #ca4321);
+  background: linear-gradient(45deg, #eb7f41, #ca4321);
+}
+
+.Project__card:nth-of-type(4):before {
+  color: rgb(0, 119, 255);
+  background: -webkit-linear-gradient(225deg, #21396d, rgb(42, 110, 189));
+  background: linear-gradient(225deg, #21396d, rgb(42, 110, 189));
+}
+
+.Project__card:nth-of-type(5):before {
+  background: #ec2f4b;
+  background: -webkit-linear-gradient(45deg, #ec4b2f, #ec2f4b);
+  background: linear-gradient(45deg, #ec4b2f, #ec2f4b);
+}
+
+.Project__card:nth-of-type(6):before {
+  background: #31f35b;
+  background: -webkit-linear-gradient(45deg, #31f35b, #16a853);
+  background: linear-gradient(45deg, #31f35b, #16a853);
 }
 
 .Project__stack {
