@@ -2,6 +2,7 @@ const mobileMenuContainer = document.getElementById('mobile-menu');
 const mobileNav = document.getElementById('navbar__menu');
 const navLinks = document.querySelectorAll('.navbar__item');
 const navLogo = document.querySelector('.logo__container');
+const Portfolio__wrapper = document.querySelector('.Portfolio__wrapper');
 const aboutOptions = document.getElementById('about__options')
 const navbarSection = document.getElementById('navbar__section')
 
@@ -74,8 +75,13 @@ navLinks.forEach((Link)=> Link.addEventListener('click', hideMobileMenu));
 navLogo.addEventListener('click', hideMobileMenu);
 
 window.addEventListener('scroll', handleScroll);
-// window.addEventListener("load",function() {
-//     setTimeout(function(){
-//         window.scrollTo(0, );
-//     }, 0);
-// });
+window.addEventListener("load",function() {
+    let columns =Math.floor(window.innerWidth* .89 / 300)
+    Portfolio__wrapper.style.columnCount = (columns >= 4) ? "4" : columns;
+});
+
+function setStuff() {
+    let columns =Math.floor(window.innerWidth* .9 / 300)
+    Portfolio__wrapper.style.columnCount = (columns >= 4) ? "4" : columns;
+}
+window.addEventListener('resize', setStuff)
