@@ -467,6 +467,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   transition: all 0.15s cubic-bezier(1, -0.03, 0.28, 0.3);
+  -webkit-transform: scale(1, 0);
   transform: scale(100%, 0%);
   border-radius: 9px;
   cursor: pointer;
@@ -474,6 +475,7 @@ body {
 
 .Project__card:hover .Project__card__overlay {
   background: rgba(0, 0, 0, 0.85);
+  -webkit-transform: scale(1, 1);
   transform: scale(100%, 100%);
 }
 
