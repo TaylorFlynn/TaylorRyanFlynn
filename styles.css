@@ -450,7 +450,7 @@ body {
 
 .Project__card:hover .Project__card__overlay {
   background: rgba(0, 0, 0, 0.85);
-  transform: scaleY(100%);
+  transform: scale(0%, 100%);
 }
 
 .Project__card img {
@@ -472,7 +472,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   transition: all 0.15s cubic-bezier(1, -0.03, 0.28, 0.3);
-  transform: scaleY(0%);
+  transform: scale(0%, 0%);
   border-radius: 9px;
   cursor: pointer;
 }
